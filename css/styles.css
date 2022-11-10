@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: "Roboto", serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* header */
+header{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: #F3F3F3;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* main */
+main{
+    padding: 20px 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.promos{
+    background-image: url(../img/delivery.jpg);
+    height: 350px;
+    width: 490px;
+}
+h2{
+    color: #FC200C;
+    padding: 20px;
+}
+.promos span{
+    color: #fff;
+}
+
+.podio{
+    background-color: #fff;
+    height: 350px;
+    width: 490px;
+}
+.podio h2{
+    text-align: center;
+}
+
+.podioFlex{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.podioFlex ol li{
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+/* footer */
+
+footer{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+footer ul{
+    list-style: none;
+    padding-left: 10px;
+}
+footer ul li{
+    text-decoration: none;
+    color: #F3F3F3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
